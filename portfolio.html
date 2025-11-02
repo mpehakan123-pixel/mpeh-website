@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio | Mpeh</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f8f8;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #8b008b;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover { color: #d10075; }
+
+        .container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b008b;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        p.description {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 50px;
+        }
+
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 300px;
+            flex: 1 1 280px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .project-card h3 {
+            color: #8b008b;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #fff;
+            color: #555;
+            font-size: 14px;
+            box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+            margin-top: 60px;
+        }
+
+        @media(max-width: 768px) {
+            h1 { font-size: 32px; }
+            .project-card { max-width: 90%; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <p class="description">Here’s a showcase of the brands I work with and the projects I manage. Each project reflects my dedication to growing digital presence and creating meaningful impact.</p>
+
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <h3>DGS Medical</h3>
+                <p>Social media management and digital marketing strategy to engage clients and increase brand visibility.</p>
+            </div>
+            <div class="project-card">
+                <h3>Medi.Care</h3>
+                <p>Content creation and audience engagement to strengthen the brand's online presence.</p>
+            </div>
+            <div class="project-card">
+                <h3>Afrilish UK</h3>
+                <p>Partner retention management, project coordination, and growth analytics for African food vendors.</p>
+            </div>
+            <div class="project-card">
+                <h3>Revamp Pro</h3>
+                <p>CV revamping services, social media marketing, and career support content creation for clients.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Mpeh. All Rights Reserved.
+    </footer>
+
+</body>
+</html>

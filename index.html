@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mpeh | Digital Professional</title>
+    <style>
+        /* Reset some default styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f8f8;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #8b008b;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover { color: #d10075; }
+
+        /* Hero section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 20px 80px 20px;
+            background: linear-gradient(135deg, #ffe6f2, #fdf0ff);
+        }
+
+        .hero img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #d10075;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+
+        .hero img:hover { transform: scale(1.05); }
+
+        .hero h1 {
+            font-size: 42px;
+            color: #8b008b;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .hero .button {
+            padding: 14px 30px;
+            background: #8b008b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            margin: 10px;
+            transition: 0.3s;
+        }
+
+        .hero .button:hover {
+            background: #d10075;
+            transform: scale(1.05);
+        }
+
+        /* Services section */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 60px 20px;
+            background: #fff;
+        }
+
+        .service-card {
+            background: #fdf0ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 15px;
+            max-width: 280px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover { transform: scale(1.05); }
+
+        .service-card h3 {
+            color: #8b008b;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #fff;
+            color: #555;
+            font-size: 14px;
+            box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+        }
+
+        @media(max-width: 768px) {
+            .services { flex-direction: column; align-items: center; }
+            .hero h1 { font-size: 32px; }
+            .hero p { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/me.jpg" alt="Mpeh">
+        <h1>Hello, I'm Mpeh 👋</h1>
+        <p>I help brands grow online and empower individuals in their career journey. Social media, content creation, and CV revamps are my passion.</p>
+        <a href="portfolio.html" class="button">See My Work</a>
+        <a href="contact.html" class="button">Get In Touch</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-card">
+            <h3>Social Media Management</h3>
+            <p>Grow your brand online with engaging content, strategy, and analytics.</p>
+        </div>
+        <div class="service-card">
+            <h3>CV & Career Support</h3>
+            <p>Optimize your CV and stand out to land the job of your dreams.</p>
+        </div>
+        <div class="service-card">
+            <h3>Brand Content Creation</h3>
+            <p>Create stunning visual and written content to boost your online presence.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Mpeh. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html>
